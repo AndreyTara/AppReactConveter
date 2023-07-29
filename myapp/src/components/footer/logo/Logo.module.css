@@ -1,0 +1,21 @@
+.logo {
+	padding-right: 80px;
+}
+
+.logo_wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 147px;
+	height: 23px;
+}
+
+.logo_text {
+	font-family: "Work Sans";
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 23px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #1F1E25;
+}

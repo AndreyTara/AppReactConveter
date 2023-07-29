@@ -1,0 +1,22 @@
+.enter {
+	padding-left: 199px;
+}
+
+.enter_wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	/* padding-left: 200px; */
+}
+
+.enter_text {
+	padding-left: 15px;
+	font-family: Roboto;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #1F1E25;
+}
