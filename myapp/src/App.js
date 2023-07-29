@@ -12,8 +12,8 @@ function App() {
 			<div className="app">
 				<div className="app_wrapper">
 					<Header />
-					{/* <Main />
-					<Footer /> */}
+					<Main />
+					<Footer />
 				</div>
 			</div>
 		// </RouterBrouser>

@@ -1,21 +1,29 @@
 .logo {
-	padding-right: 80px;
+	/* width: 252px; */
+	height: 84px;
 }
 
 .logo_wrapper {
 	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	width: 147px;
-	height: 23px;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+.logo_logoShere {
+	padding-left: 3px;
+}
+
+.logo_dicription {
+	margin-top: 18px;
 }
 
 .logo_text {
-	font-family: "Work Sans";
-	font-weight: 700;
-	font-size: 20px;
-	line-height: 23px;
+	margin: 0;
+	font-family: "Roboto";
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 17px;
 	letter-spacing: 0em;
 	text-align: left;
-	color: #1F1E25;
+	color: #707C87;
 }
