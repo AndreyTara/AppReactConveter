@@ -1,0 +1,18 @@
+.header {
+	max-width: 1366px;
+	height: 91px;
+	display: flex;
+	align-items: center;
+	background: #F6F7FF;
+	margin: auto;
+}
+
+.header_wrapper {
+	margin-left: 100px;
+	margin-right: 100px;
+	display: flex;
+	justify-content: left;
+	flex-direction: row;
+	align-items: center;
+	/* gap: 130px; */
+}

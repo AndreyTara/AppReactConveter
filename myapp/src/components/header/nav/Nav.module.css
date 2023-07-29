@@ -1,0 +1,31 @@
+.nav {
+}
+
+.nav_wrapper {
+	width: 588px;
+	height: 20px;
+}
+
+.nav_ul {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	column-gap: 55px;
+	padding-left: 0;
+}
+
+.nav_li {
+	font-family: 'Roboto';
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	letter-spacing: 0em;
+	text-align: left;
+
+	list-style-type: none;
+}
+
+.nav_link {
+	text-decoration: none;
+	color: #707C87;
+}

@@ -1,0 +1,11 @@
+@font-face {
+	font-family: 'Work Sans';
+	src: url('fonts/Worksanssemibold.eot');
+	src: url('fonts/Worksanssemibold.eot') format('embedded-opentype'),
+		url('fonts/Worksanssemibold.woff2') format('woff2'),
+		url('fonts/Worksanssemibold.woff') format('woff'),
+		url('fonts/Worksanssemibold.ttf') format('truetype'),
+		url('fonts/Worksanssemibold.svg#Worksanssemibold') format('svg');
+	font-weight: 700;
+	font-style: normal;
+}

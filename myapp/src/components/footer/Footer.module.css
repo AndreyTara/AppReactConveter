@@ -1,0 +1,30 @@
+.footer {
+	grid-area: footer;
+	display: flex;
+	flex-direction: row;
+	gap: 89px;
+	padding: 83px 98px 60px;
+	background: #F6F7FF;
+}
+
+.footer-logo {
+	display: flex;
+	flex-direction: column;
+	max-width: 196px;
+}
+
+.footer-logo div {
+	display: flex;
+	flex-direction: row;
+}
+
+.footer-logo img {
+	width: 23px;
+	height: 23px;
+}
+
+.footer-logo h2 {
+	color: #1F1E25;
+	font-family: 'Work-Sans', sans-serif;
+	font-size: 28px;
+}
