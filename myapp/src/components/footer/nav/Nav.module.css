@@ -1,24 +1,25 @@
-.nav {
-}
+.nav {}
 
 .nav_wrapper {
-	width: 588px;
-	height: 20px;
+	width: 151px;
+	height: 104px;
 }
 
 .nav_ul {
 	display: flex;
-	justify-content: space-between;
-	flex-direction: row;
-	column-gap: 55px;
+	justify-content: flex-start;
+	align-items: flex-start;
+	flex-direction: column;
+	row-gap: 15px;
 	padding-left: 0;
+	margin: 0;
 }
 
 .nav_li {
-	font-family: 'Roboto';
-	font-weight: 400;
+	font-family: "Roboto";
 	font-size: 16px;
-	line-height: 19px;
+	font-weight: 500;
+	line-height: 22px;
 	letter-spacing: 0em;
 	text-align: left;
 
@@ -28,4 +29,5 @@
 .nav_link {
 	text-decoration: none;
 	color: #707C87;
+
 }

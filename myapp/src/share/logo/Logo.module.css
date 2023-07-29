@@ -1,5 +1,5 @@
 .logo {
-	padding-right: 80px;
+	/* padding-right: 80px; */
 }
 
 .logo_wrapper {
@@ -8,6 +8,7 @@
 	align-items: center;
 	width: 147px;
 	height: 23px;
+
 }
 
 .logo_text {
@@ -18,4 +19,5 @@
 	letter-spacing: 0em;
 	text-align: left;
 	color: #1F1E25;
+	margin: 0;
 }

@@ -1,19 +1,5 @@
-.main {}
+.main {
+	flex: 1 0 auto;
+}
 
 .main_wrapper {}
-
-.main_top_wrapper {}
-
-.main_top_description {}
-
-.main_top_description_button {}
-
-.main_top_img_area {}
-
-.main_buttom_wrapper {}
-
-.main_buttom_description {}
-
-.main_buttom_description_button {}
-
-.main_buttom_img_area {}

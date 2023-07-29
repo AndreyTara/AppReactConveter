@@ -1,0 +1,46 @@
+.item {
+	width: 183px;
+	height: 49px;
+}
+
+.item_wrapper {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+.item_img {
+	padding-right: 17px;
+}
+
+.item_section {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+
+.item_textNum {
+	margin: 0;
+	font-family: "Roboto";
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 22px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #1F1E25;
+}
+
+.item_textStr {
+	margin: 0;
+	margin-top: 12px;
+	font-family: "Roboto";
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 17px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #707C87;
+}
