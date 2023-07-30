@@ -1,0 +1,67 @@
+.item {
+	width: 1366px;
+	height: 400px;
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+}
+
+.item_wrapper {
+	padding: 85px 250px 99px;
+	display: flex;
+	justify-content: center;
+	background-image: url(../../../assets/images/Bgtop.png);
+}
+
+.item_description {
+	display: flex;
+	flex-direction: column;
+	width: 290px;
+}
+
+.item_main_text {
+	font-family: "Roboto";
+	font-weight: 700;
+	font-size: 54px;
+	line-height: 63px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #F6F7FF;
+	margin: 0;
+	padding: 0;
+}
+
+.item_text {
+	margin-top: 20px;
+	font-family: "Roboto";
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 23px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #E0E1EA;
+	margin: 0;
+	padding: 0;
+}
+
+.item_description_button {
+	margin-top: 30px;
+	font-family: "Roboto";
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 21px;
+	letter-spacing: 0em;
+	text-align: center;
+	color: #707C87;
+	background: #F6F7FF;
+	width: 234px;
+	height: 53px;
+	border-radius: 4px;
+	border: none;
+}
+
+.item_img_area {
+	padding-left: 235px;
+
+
+}

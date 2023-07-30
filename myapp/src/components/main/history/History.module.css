@@ -1,0 +1,149 @@
+.item {
+	width: 1366px;
+	margin: auto;
+	padding: 80px 202px 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.item_wrapper {
+	width: 962px;
+	height: 397px;
+	/* height: 267px; */
+	border-radius: 4px;
+	display: flex;
+	/* justify-content: flex-start; */
+	/* background: #FFFFFF; */
+	background: #F6F7FF;
+	/* padding: 40px 65px 58px 65px; */
+}
+
+.item_description {
+	padding: 40px 65px 58px 65px;
+	display: flex;
+	flex-direction: column;
+	/* justify-content: space-between; */
+	/* align-items: flex-start; */
+
+}
+
+.item_header_wrapper {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+}
+
+.item_header_text {
+	padding: 0;
+	margin: 0;
+	width: 371px;
+	height: 47px;
+	font-family: "Roboto";
+	font-size: 28px;
+	font-weight: 500;
+	line-height: 39px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #1F1E3F;
+}
+
+.item_header_btn {
+	padding: 0;
+	margin: 0;
+	width: 187px;
+	height: 51px;
+	font-family: "Roboto";
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 19px;
+	letter-spacing: 0em;
+	text-align: center;
+	color: #F6F7FF;
+	background: #2C36F2;
+}
+
+.item_list {
+	padding: 0;
+	margin: 0;
+	padding-left: 0;
+	display: flex;
+	flex-wrap: wrap;
+	/* justify-content: flex-start; */
+	/* align-items: flex-start; */
+	padding-top: 32px;
+	column-gap: 48px;
+	row-gap: 15px;
+}
+
+.item_li {
+	width: 392px;
+	height: 42px;
+	padding: 0;
+	margin: 0;
+	border-radius: 4px;
+	/* background: #F6F7FF; */
+	background: #FFFFFF;
+	list-style-type: none;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+}
+
+.date {
+	padding-left: 20px;
+	font-family: "Roboto";
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 23px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #C1C2CA;
+}
+
+.count {
+	padding-left: 20px;
+	font-family: "Roboto";
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 23px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #707C87;
+}
+
+.currenty {
+	font-family: "Roboto";
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 23px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #707C87;
+}
+
+.img {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.countConvert {
+	font-family: "Roboto";
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 23px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #707C87;
+}
+
+.currentyConvert {
+	font-family: "Roboto";
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 23px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #707C87;
+}
