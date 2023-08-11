@@ -7,8 +7,6 @@ import {
 import s from "./Nav.module.css";
 
 
-//	Switch,
-// Route,
 function Nav() {
 	const navComponents = [
 		{
