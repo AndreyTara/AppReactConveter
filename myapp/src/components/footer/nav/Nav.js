@@ -7,8 +7,6 @@ import {
 import s from "./Nav.module.css";
 
 
-//	Switch,
-// Route,
 function Nav() {
 	const navComponents = [
 		{
@@ -36,7 +34,7 @@ function Nav() {
 					<ul className={s.nav_ul}>
 						{navComponents.map((navComponent) => (
 							<li className={s.nav_li} key={navComponent.path} >
-								<Link className={s.nav_link} to="#">	{navComponent.component}</Link>
+								<Link className={s.nav_link} to={navComponents.path}>	{navComponent.component}</Link>
 							</li>
 						))}
 					</ul>

@@ -33,7 +33,7 @@
 
 .item_text {
 	margin-top: 20px;
-	font-family: "Roboto";
+	font-family: "Roboto", sans-serif;
 	font-weight: 500;
 	font-size: 20px;
 	line-height: 23px;
@@ -46,7 +46,7 @@
 
 .item_description_button {
 	margin-top: 30px;
-	font-family: "Roboto";
+	font-family: "Roboto", sans-serif;
 	font-size: 18px;
 	font-weight: 500;
 	line-height: 21px;

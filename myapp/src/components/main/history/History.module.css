@@ -1,13 +1,13 @@
 .item {
-	width: 1366px;
 	margin: auto;
-	padding: 80px 202px 80px;
+	width: 1366px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
 .item_wrapper {
+	margin: 80px 202px 80px;
 	width: 962px;
 	height: 397px;
 	/* height: 267px; */
@@ -20,6 +20,7 @@
 }
 
 .item_description {
+	width: 100%;
 	padding: 40px 65px 58px 65px;
 	display: flex;
 	flex-direction: column;
@@ -40,7 +41,7 @@
 	margin: 0;
 	width: 371px;
 	height: 47px;
-	font-family: "Roboto";
+	font-family: "Roboto", sans-serif;
 	font-size: 28px;
 	font-weight: 500;
 	line-height: 39px;
@@ -54,7 +55,7 @@
 	margin: 0;
 	width: 187px;
 	height: 51px;
-	font-family: "Roboto";
+	font-family: "Roboto", sans-serif;
 	font-size: 16px;
 	font-weight: 500;
 	line-height: 19px;
@@ -93,34 +94,37 @@
 
 .date {
 	padding-left: 20px;
-	font-family: "Roboto";
+	font-family: "Roboto", sans-serif;
 	font-size: 18px;
 	font-weight: 400;
 	line-height: 23px;
 	letter-spacing: 0em;
 	text-align: left;
 	color: #C1C2CA;
+	white-space: nowrap;
 }
 
 .count {
 	padding-left: 20px;
-	font-family: "Roboto";
+	font-family: "Roboto", sans-serif;
 	font-size: 18px;
 	font-weight: 600;
 	line-height: 23px;
 	letter-spacing: 0em;
 	text-align: left;
 	color: #707C87;
+	white-space: nowrap;
 }
 
 .currenty {
-	font-family: "Roboto";
+	font-family: "Roboto", sans-serif;
 	font-size: 18px;
 	font-weight: 600;
 	line-height: 23px;
 	letter-spacing: 0em;
 	text-align: left;
 	color: #707C87;
+	white-space: nowrap;
 }
 
 .img {
@@ -129,21 +133,24 @@
 }
 
 .countConvert {
-	font-family: "Roboto";
+	font-family: "Roboto", sans-serif;
 	font-size: 18px;
 	font-weight: 600;
 	line-height: 23px;
 	letter-spacing: 0em;
 	text-align: left;
 	color: #707C87;
+	white-space: nowrap;
 }
 
 .currentyConvert {
-	font-family: "Roboto";
+	font-family: "Roboto", sans-serif;
 	font-size: 18px;
 	font-weight: 600;
 	line-height: 23px;
 	letter-spacing: 0em;
 	text-align: left;
 	color: #707C87;
+	white-space: nowrap;
 }
+

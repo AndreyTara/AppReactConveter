@@ -12,6 +12,7 @@
 	flex-direction: row;
 	column-gap: 55px;
 	padding-left: 0;
+	white-space: nowrap;
 }
 
 .nav_li {
